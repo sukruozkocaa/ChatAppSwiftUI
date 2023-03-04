@@ -62,14 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				3517734529B2C11E007C934C /* ChatAppApp.swift */,
-				3517734729B2C11E007C934C /* ContentView.swift */,
-				3517734929B2C11F007C934C /* Assets.xcassets */,
+				3517735F29B2E7B3007C934C /* Extensions */,
+				3517735E29B2E7A0007C934C /* Model */,
+				3517735D29B2E78D007C934C /* View */,
+				3517736029B2E7C3007C934C /* ViewModel */,
 				3517734B29B2C11F007C934C /* Preview Content */,
-				3517735329B2C22A007C934C /* ChatRow.swift */,
-				3517735529B2C4B0007C934C /* ChatModel.swift */,
-				3517735729B2CE16007C934C /* Date+Helpers.swift */,
-				3517735929B2D0CB007C934C /* ChatsViewModel.swift */,
-				3517735B29B2D321007C934C /* ChatView.swift */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -77,9 +74,44 @@
 		3517734B29B2C11F007C934C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				3517734929B2C11F007C934C /* Assets.xcassets */,
 				3517734C29B2C11F007C934C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3517735D29B2E78D007C934C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3517734729B2C11E007C934C /* ContentView.swift */,
+				3517735329B2C22A007C934C /* ChatRow.swift */,
+				3517735B29B2D321007C934C /* ChatView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3517735E29B2E7A0007C934C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3517735529B2C4B0007C934C /* ChatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3517735F29B2E7B3007C934C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3517735729B2CE16007C934C /* Date+Helpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3517736029B2E7C3007C934C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3517735929B2D0CB007C934C /* ChatsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
